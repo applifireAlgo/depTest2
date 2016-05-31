@@ -1,0 +1,31 @@
+Ext.define('Startone.startone.shared.com.model.shoppingcontext.onlineshopping.OrderTransactionModel', {
+     "extend": "Ext.data.Model",
+     "fields": [{
+          "name": "primaryKey",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "orderTransactionId",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "orderid",
+          "reference": "OrderMain",
+          "defaultValue": ""
+     }, {
+          "name": "transactionId",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "versionId",
+          "type": "int",
+          "defaultValue": ""
+     }, {
+          "name": "entityAudit",
+          "reference": "EntityAudit"
+     }, {
+          "name": "primaryDisplay",
+          "type": "string",
+          "defaultValue": ""
+     }]
+});

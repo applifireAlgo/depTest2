@@ -1,0 +1,4 @@
+DROP TABLE IF EXISTS `ast_Village_M`;
+
+CREATE TABLE `ast_Village_M` ( `villageId` VARCHAR(64) NOT NULL, `villageName` VARCHAR(256) NOT NULL, `villageDescription` VARCHAR(256) NULL DEFAULT NULL, `villageFlag` VARCHAR(64) NULL DEFAULT NULL, `countryId` VARCHAR(64) NOT NULL, `stateId` VARCHAR(64) NOT NULL, `regionId` VARCHAR(64) NOT NULL, `districtId` VARCHAR(64) NOT NULL, `talukaaId` VARCHAR(64) NOT NULL, `villageCode` VARCHAR(32) NOT NULL, `villageLatitude` VARCHAR(11) NULL DEFAULT NULL, `villageLongtitude` INT(11) NULL DEFAULT NULL, `createdBy` VARCHAR(64) NULL DEFAULT '-1', `createdDate` TIMESTAMP NULL DEFAULT '2000-01-01 10:10:10', `updatedBy` VARCHAR(64) NULL DEFAULT '-1', `updatedDate` TIMESTAMP NULL DEFAULT '2000-01-01 10:10:10', `versionId` INT(10) NULL DEFAULT '-1', `activeStatus` INT(1) NULL DEFAULT '1', `txnAccessCode` INT(10) NULL DEFAULT NULL, PRIMARY KEY (`villageId`));
+
