@@ -1,0 +1,4 @@
+DROP TABLE IF EXISTS `ast_Taluka_M`;
+
+CREATE TABLE `ast_Taluka_M` ( `talukaId` VARCHAR(64) NOT NULL, `countryId` VARCHAR(64) NOT NULL, `stateId` VARCHAR(64) NOT NULL, `regionId` VARCHAR(64) NOT NULL, `districtId` VARCHAR(64) NOT NULL, `talukaName` VARCHAR(256) NOT NULL, `talukaCode` VARCHAR(32) NOT NULL, `talukaDescription` VARCHAR(128) NULL DEFAULT NULL, `talukaFlag` VARCHAR(128) NULL DEFAULT NULL, `talukaLatitude` INT(11) NULL DEFAULT NULL, `talukaLongitude` INT(11) NULL DEFAULT NULL, `createdBy` VARCHAR(64) NULL DEFAULT '-1', `createdDate` TIMESTAMP NULL DEFAULT '2000-01-01 10:10:10', `updatedBy` VARCHAR(64) NULL DEFAULT '-1', `updatedDate` TIMESTAMP NULL DEFAULT '2000-01-01 10:10:10', `versionId` INT(10) NULL DEFAULT '-1', `activeStatus` INT(1) NULL DEFAULT '1', `txnAccessCode` INT(10) NULL DEFAULT NULL, PRIMARY KEY (`talukaId`));
+

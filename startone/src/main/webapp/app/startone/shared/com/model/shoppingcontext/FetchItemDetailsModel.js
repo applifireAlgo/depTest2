@@ -1,0 +1,32 @@
+Ext.define('Startone.startone.shared.com.model.shoppingcontext.FetchItemDetailsModel', {
+     "extend": "Ext.data.Model",
+     "fields": [{
+          "name": "categoryName",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "brandName",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "productName",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "itemId",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "itemName",
+          "type": "string",
+          "defaultValue": ""
+     }, {
+          "name": "itemPrice",
+          "type": "auto",
+          "defaultValue": ""
+     }, {
+          "name": "itemIcon",
+          "type": "string",
+          "defaultValue": ""
+     }]
+});
